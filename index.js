@@ -9,7 +9,7 @@ convertBtn.addEventListener("click", function(){
 
 meterstofeet.innerHTML = `${ inputEl.value } metres = ${ (inputEl.value * convertmtof).toFixed(3)  } feet <br> ${ inputEl.value } feet = ${ (inputEl.value / convertmtof).toFixed(3) } metres`
 
-literstogallons.innerHTML = `${ inputEl.value } liters = ${(inputEl.value * convertltog).toFixed(3) } gallons <br> ${ inputEl.value } gallons = ${ (inputEl.value / convertltog).toFixed(3) } liters`
+literstogallons.innerHTML = `${ inputEl.value } litres = ${(inputEl.value * convertltog).toFixed(3) } gallons <br> ${ inputEl.value } gallons = ${ (inputEl.value / convertltog).toFixed(3) } litres`
 
 kilostopounds.innerHTML = `${ inputEl.value } kilograms = ${ (inputEl.value * convertptok).toFixed(3) } pounds <br> ${ inputEl.value } pounds = ${ (inputEl.value / convertptok).toFixed(3) } kilograms`
 }
