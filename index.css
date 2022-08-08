@@ -1,0 +1,70 @@
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    margin: 0;
+    background-color: #1b263b;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2 h3 {
+     color: #e0e1dd;
+
+}
+
+#conversion-div
+{
+    background-image: linear-gradient(to left bottom, #1b263b, #778da9, lightgrey);
+    background-color: #778da9;
+    
+    padding: 10px;
+        width: 500px;
+
+}
+
+.results-div
+{
+    width: 500px;
+    background: #415a77;
+    margin: 24px;
+    padding: 20px 0;
+    border-radius: 6px;
+}
+
+#convert-btn 
+{
+    border-radius: 4px;
+    box-shadow: 6px 6px whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 6px 20px;
+    width: 100px;
+    background:none;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+input
+{
+    width: 100px;
+    background: none;
+    border: 1px solid #e0e1dd;
+    border-radius: 4px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+input[type='number']{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
