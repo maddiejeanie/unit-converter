@@ -1,7 +1,6 @@
 const convertmtof = 3.281
 const convertltog = 0.264 
 const convertptok = 2.204 
-//`${inputEl.value} meters = ${feet} | ${inputEl.value} feet = ${meters}`
 
 const convertBtn = document.getElementById("convert-btn")
 let inputEl = document.getElementById("input-el")
